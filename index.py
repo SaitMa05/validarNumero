@@ -6,5 +6,5 @@ def validarNumero(num):
     else:
         return "Número positivo"
 
-numero = 0;
+numero = int(input("Digite um número: "))
 print(validarNumero(numero))
